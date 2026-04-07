@@ -6,7 +6,7 @@ This assignment is based on a simplified version of a real product problem we ha
 
 Build a small application that allows a user to enter a business profile and receive relevant grant recommendations.
 
-A simplified toy dataset of grants is included in this repository for use in the assignment. You may interpret, transform, or extend it if useful, but please explain any meaningful changes.
+A simplified grant dataset is included in this repository for use in the assignment. You may interpret, transform, or extend it if useful, but please explain any meaningful changes.
 
 ## Scope
 
@@ -17,7 +17,7 @@ Your solution should include:
 
 ## Submission
 
-Please complete the assignment in a private repository and grant reviewer access to the hiring manager’s email address, or provide equivalent access on your chosen platform, when it are ready for review.
+Please complete the assignment in a private repository and grant reviewer access using the contact details provided in our email, or provide equivalent access on your chosen platform, when you are ready for review.
 
 Please also include:
 
