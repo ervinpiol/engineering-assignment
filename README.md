@@ -26,6 +26,10 @@ Please also include:
 
 ## Guidance
 
+Treat this like a real piece of engineering work, while keeping the scope proportionate to the assignment.
+
+Your submission should be straightforward for another engineer to run, review, and reason about.
+
 A thoughtful, well-scoped solution is better than a broad one.
 
 We are not looking for maximum feature count or polish for its own sake.
