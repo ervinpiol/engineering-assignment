@@ -8,6 +8,54 @@ Build a small application that allows a user to enter a business profile and rec
 
 A simplified grant dataset is included in this repository for use in the assignment. You may interpret, transform, or extend it if useful, but please explain any meaningful changes.
 
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | React 18, TypeScript, Vite, Tailwind CSS |
+| Backend | Python, FastAPI, Uvicorn, Pydantic |
+| Package manager | pnpm (frontend), pip (backend) |
+
+## Features
+
+- **Business profile form** — enter applicant type, employee count, revenue band, entity registration status, market expansion intent, and business goals
+- **Grant matching** — eligibility checked against hard criteria (applicant type, headcount, revenue band, local entity, new market)
+- **Relevance scoring** — grants ranked by how many business goals align with the profile
+- **Ineligibility reasons** — each ineligible grant shows why it did not qualify
+- **Sorted results** — eligible grants first, then ordered by match score
+
+## Prerequisites
+
+- Node.js ≥ 18
+- pnpm (`npm install -g pnpm`)
+- Python ≥ 3.11
+
+## Running Locally
+
+### Backend
+
+```bash
+cd backend
+python -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+API runs at `http://localhost:8000`.
+
+### Frontend
+
+```bash
+cd frontend
+pnpm install
+pnpm dev
+```
+
+UI runs at `http://localhost:5173`.
+
+Open `http://localhost:5173` in your browser. Backend must be running first.
+
 ## Scope
 
 Your solution should include:
