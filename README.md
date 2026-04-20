@@ -1,6 +1,6 @@
 # Grantbii Software Engineering Assignment
 
-This assignment is based on a simplified version of a real product problem we have already solved at Grantbii.
+This assignment is based on a simplified version of a real product problem we have worked on at Grantbii.
 
 ## The task
 
@@ -17,12 +17,12 @@ Your solution should include:
 
 ## Submission
 
-Please complete the assignment in a private repository and grant reviewer access using the contact details provided in our email, or provide equivalent access on your chosen platform, when you are ready for review.
+Please complete the assignment in a private repository and grant reviewer access using the contact details provided in our email, or provide equivalent access on your chosen platform when you are ready for review.
 
 Please also include:
 
 - instructions for running the project locally
-- a short note on assumptions, open questions, and tradeoffs
+- a short write-up covering your assumptions, open questions, and tradeoffs
 
 ## Guidance
 
