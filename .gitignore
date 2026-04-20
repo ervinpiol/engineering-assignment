@@ -1,0 +1,33 @@
+# dependencies
+frontend/node_modules/
+frontend/.pnpm-store/
+
+# build output
+frontend/dist/
+frontend/.vite/
+
+# typescript incremental build info
+frontend/node_modules/.tmp/
+
+# python
+backend/.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# env files
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# editors
+.idea/
+.vscode/
+*.swp
+*.swo
