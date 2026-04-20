@@ -11,7 +11,11 @@ app = FastAPI(title="Grantbii Recommendation API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:4173"],
+    allow_origins=[
+        "http://localhost:5173",
+        "http://localhost:4173",
+        "https://*.vercel.app",
+    ],
     allow_methods=["POST"],
     allow_headers=["Content-Type"],
 )
